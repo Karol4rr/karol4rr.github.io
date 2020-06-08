@@ -1,0 +1,265 @@
+body
+{
+  background-color: #050505;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+#container
+{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rectangle
+{
+  width: 960px;
+  margin: 20px;
+  text-align: center;
+}
+
+.square
+{
+  width: 50%;
+  float: left;
+
+}
+
+#logo
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+  float: left;
+  width: 600px;
+  margin-left: 70px;
+  text-align: left;
+}
+
+#zegar
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  font-size: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+}
+
+.tile1
+{
+  width: 230px;
+  margin: 10px;
+  height: 142px;
+  background-color: #3095d3;
+  float: left;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+
+}
+.tile1:hover
+{
+  background-color: #2084c2;
+  -webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
+}
+
+
+.tile2
+{
+  width: 230px;
+  margin: 10px;
+  height: 142px;
+  background-color: #666666;
+  float: left;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.tile2:hover
+{
+  background-color: #555555;
+  -webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
+}
+
+.tile3
+{
+  width: 230px;
+  margin: 10px;
+  height: 142px;
+  background-color: #93c748;
+  float: left;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.tile3:hover
+{
+  background-color: #82b637;
+  -webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
+}
+
+.tile4
+{
+  width: 420px;
+  margin: 10px;
+  height: 82px;
+  background-color: #ee5a32;
+  text-align: center;
+  font-size: 26px;
+  padding: 30px;
+  line-height: 150%;
+  float: left;
+}
+
+
+.tile5
+{
+  width: 420px;
+  margin: 10px;
+  height: 244px;
+  background-color: #666666;
+  padding: 30px;
+  text-align: justify;
+}
+
+
+.li
+{
+  width: 105px;
+  margin: 10px;
+  height: 142px;
+  background-color: #007bb5;
+  float: left;
+  transition: transform 0.2s ease-in-out;
+}
+.li:hover
+{
+  background-color: #006aa4;
+  transform: scale(0.95) rotate(-2deg);
+}
+
+.instagram
+{
+  width: 105px;
+  margin: 10px;
+  height: 142px;
+  background-color: #c32aa3;
+  float: left;
+  transition: transform 0.2s ease-in-out;
+}
+.instagram:hover
+{
+  background-color: #b21aa2;
+  transform: scale(0.95) rotate(-2deg);
+}
+
+.github
+{
+  width: 105px;
+  margin: 10px;
+  height: 142px;
+  background-color: #333;
+  float: left;
+  transition: transform 0.2s ease-in-out;
+}
+.github:hover
+{
+  background-color: #222;
+  transform: scale(0.95) rotate(-2deg);
+}
+
+.steam
+{
+  width: 105px;
+  margin: 10px;
+  height: 142px;
+  background-color: #171A21;
+  float: left;
+  transition: transform 0.2s ease-in-out;
+}
+.steam:hover
+{
+  background-color: #060A10;
+  transform: scale(0.95) rotate(-2deg);
+}
+
+a.tilelink
+{
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  width: 230px;
+  height: 142px;
+}
+
+a.sociallink
+{
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  width: 105px;
+  height: 142px;
+}
+
+a.tilelinkhtml5
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+/* Mój link do strony*/
+
+.invertbutton{
+  margin-bottom: 35px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+}
+
+.invertbutton::after{
+  margin-left: 85px;
+  content: "";
+  background: white;
+	mix-blend-mode: exclusion;
+  width: calc(70% + 20px);
+  height: 0;
+  position: absolute;
+  bottom: -4px;
+  left: -10px;
+	transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.invertbutton:hover::after{
+	height: calc(100% + 8px)
+}
+
+/* The End */
+
+.note{
+  top: auto;
+  bottom: 0;
+  color: #ddd;
+  font-size: 13px;
+  text-transform: none;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+}
+
+
+.cvlink
+{
+  height: 304px;
+}
