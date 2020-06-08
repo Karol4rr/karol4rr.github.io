@@ -263,3 +263,28 @@ a.tilelinkhtml5
 {
   height: 304px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+#container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .square {
+    width: 100%;
+    clear: both;
+  }
+  .odnosniki{
+    margin-left: 25%;
+  }
+  .zdjecie{
+    margin-left: 25%;
+  }
