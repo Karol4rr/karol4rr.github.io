@@ -1,6 +1,12 @@
 
+.icon-key:before { content: '\e800'; } /* '' */
 .icon-mail:before { content: '\e801'; } /* '' */
+.icon-help:before { content: '\e802'; } /* '' */
+.icon-spin6:before { content: '\e839'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
+.icon-tasks:before { content: '\f0ae'; } /* '' */
+.icon-gamepad:before { content: '\f11b'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-steam:before { content: '\f1b6'; } /* '' */
+.icon-calc:before { content: '\f1ec'; } /* '' */
 .icon-linkedin-squared:before { content: '\f30c'; } /* '' */
