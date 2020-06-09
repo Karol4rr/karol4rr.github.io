@@ -1,4 +1,4 @@
-const tablicaHasel = ['haslo numer jeden', 'haslo numer dwa', 'haslo numer trzy', 'haslo numer cztery'];
+const tablicaHasel = ['Better late than never', 'No guts no glory', 'Practice makes perfect', 'Easy come easy go', 'Rome was not built in a day', 'Learn to walk before you run', 'Two heads are better than one', 'Great minds think alike', 'Every cloud has a silver lining', 'If you snooze you lose', 'Slow and steady wins the race', 'Strike while the iron is hot', 'Time is money'];
 
 
 var haslo = tablicaHasel[Math.floor(Math.random()*tablicaHasel.length)];
