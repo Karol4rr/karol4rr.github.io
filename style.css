@@ -401,3 +401,28 @@ a.tilelinkhtml5
     margin-left: 15vw;
   }
 }
+@media screen and (max-width: 500px) {
+  .github{
+    clear: both;
+  }
+  .mobilnaWersja{
+    font-size: medium;
+  }
+  #logo{
+    width: 150%;
+    margin-left: 0;
+  }
+  .rectangle{
+    text-align: left;
+  }
+  .rectangle,
+  #logo{
+    width: 120%;
+    margin-left: 0;
+  }
+  .instagram,
+  .github
+  {
+    margin-left: 7%;
+  }
+}
